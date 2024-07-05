@@ -1,0 +1,154 @@
+.Techphoto{
+    position: absolute;
+ 
+    width:30%;
+    height: 30%;
+    top: 25%;
+}
+.imgtech{
+   
+    width: 910%;
+}
+.TexContainer{
+    width: 40%;
+    
+    position: absolute;
+    left: 25%;
+    bottom: 25%;
+}
+.Circle{
+   
+    position: relative;
+    height: 10px;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50%;
+   
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    bottom: 50%;
+   
+   
+}
+.CirclePotition{
+    position: absolute;
+    left: 15%;
+    bottom: 26%;
+    text-align: center;
+}
+.Title{
+     position: absolute;
+    left:10%;
+    top:20%;
+}
+ h6{
+    font-size: larger;
+    text-decoration: none;
+}
+/* .active{
+    color: white;
+    text-decoration: underline;
+} */
+/* .Active{
+    background-color: white;
+    color: black;
+} */
+/* .CirclePotition a.active {
+    color: rgb(140, 13, 13);
+    background-color: #7600dc;
+    width:900px;
+    text-decoration: none;
+  }
+  .CirclePotition a.inactive {
+    text-decoration: none;
+  } */
+.techTitle{
+    font-family:Bellefair;
+    font-size: 56px;
+    color:#FFFFFF;
+ height: 70px;
+    width: 90%;
+}
+
+.techHeading{
+    font-family:Barlow Condensed regular;
+    font-size: 16px;
+    color:#D0D6F9;
+    word-spacing: 32px;
+ height: 30px;
+    
+}
+
+.techDetail{
+    font-family:Barlow regular;
+    font-size: 18px;
+    color:#D0D6F9 ;
+    width: 60%;
+    line-height:32px;
+   
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .Title{
+        
+        top: 12%;
+        left:2%; 
+   }
+   .Techphoto{
+   
+    
+    width:100%;
+    
+   /* display: none; */
+    top: 20%;
+}
+.imgtech{
+    height: 100%;
+    width: auto;
+}
+.TexContainer{
+   
+    width: 53%;
+    height: 30%;
+  
+    left: 20%;
+    bottom: 5%;
+    
+}
+.techHeading{
+   font-size:16px; 
+   height: 10px;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 10px;
+}
+.techTitle{
+    font-size: 40px;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.techDetail{
+    font-size: 16px;
+    line-height:28px;
+    text-align: center;
+    width: 100%;
+
+}
+.CirclePotition{
+    top: 60%;
+    left: 35%;
+}
+
+.Circle{
+    display: inline-block;
+   padding: 10px;
+
+   padding: 10px 15px;
+   padding-bottom: 20px;
+}
+}

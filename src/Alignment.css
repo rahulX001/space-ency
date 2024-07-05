@@ -1,0 +1,156 @@
+.photoAlign{
+    position: absolute;
+    left:10%;
+    /* bottom: 5%; */
+    width: 30%;
+    top: 30%;
+
+}
+.Destination{
+    
+    position: absolute;
+    left:10%;
+    top:20%;
+}
+.planetname{
+ 
+    position: absolute;
+    width: 30%;
+    right: 10%;
+    top: 30%;
+}
+.link{
+    color:#D0D6F9;
+    text-decoration: none;
+}
+.linl:active{
+    color:#FFFFFF;
+    text-decoration: underline;
+}
+
+.Number{
+font-family:Barlow condensed;
+font-size: 28px;
+font-weight: bold;
+color:#FFFFFF ;
+line-height:34px;
+letter-spacing: 4.7px;
+opacity: 25%;
+mix-blend-mode: normal;
+
+}
+
+.mainheading{
+    font-family:Barlow condensed;
+    font-size: 28px;
+    font-weight: normal; 
+    color:#FFFFFF; 
+    line-height: 34px;
+    letter-spacing: 4.7px;
+}
+
+.DesinationNav{
+
+    font-family:Barlow condensed regular;
+    font-size: 16px;
+    color:#D0D6F9;
+    word-spacing: 27px;
+    width: 90%;
+}
+.destinationTitle{
+    font-family:Bellefair regular;
+    font-size: 900%;
+    color:#FFFFFF;
+
+    width: 90%;
+}
+
+.detinationdetail{
+    font-family:Barlow regular;
+    font-size: 18px;
+    color:#D0D6F9; 
+    line-height: 32px;
+    width: 92%;
+}
+
+ .desLine{
+   width: 90%; 
+   margin-top: 15%;
+   border-color:#979797 ;
+ }
+ 
+ .desTrhead{
+    font-size: 14px;
+    font-family:Barlow Condensed;
+    color: #D0D6F9;
+
+ }
+ .desTrdetail{
+    
+    font-size: 28px;
+    font-family:Bellefair;
+    color:#FFFFFF;
+  
+ }
+ table{
+    width: 100%;
+    margin: 4%;
+    
+ }
+
+@media screen and (max-width: 768px) {
+    .Destination{
+          top: 12%;
+          left:2%; 
+     }
+     .photoAlign{
+        left:35%;
+        top: 20%;
+        width :30%;
+    }
+    .planetname{
+        width: 60%;
+        left: 23%;
+        top: 55%;
+    }
+    .DesinationNav{
+
+        
+        font-size: 16px;
+        text-align: center;
+       
+        width: 90%;
+    }
+    .destinationTitle{
+        text-align: center;
+        font-size: 80px;
+        
+    }
+    .detinationdetail{
+       
+        font-size: 16px;
+        text-align: center;
+        width: 125%;
+        position: relative;
+        line-height: 20px;
+        left: -15%;
+    
+    }
+    .Number{
+      
+        font-size: 20px;
+      
+        
+        }
+        
+        .mainheading{
+         letter-spacing: 2px;
+            font-size: 18px;
+          
+        }
+        .desLine{
+           
+            margin-top: 5%;
+          
+          }
+} 

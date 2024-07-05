@@ -1,0 +1,128 @@
+
+*{
+    margin:0;
+}
+.HomeBackground{
+    
+    background-color:#0B0D17 ;
+    height:100vh ;
+}
+.Nav-container{
+    padding:1% 2%;
+    padding-right: 5%;
+    display: flex;
+    color: white;
+    justify-content:space-between;
+    flex:2;   
+    
+}
+.Nav-container-child{
+    width:40%;
+    padding: 0 30%;
+    display: flex;
+    backdrop-filter: blur(8px);
+    color:#FFFFFF;
+    font-family:Barlow Condensed;
+    font-weight:Regular;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+.explorelogo{
+    
+    position: absolute;
+    
+    right: 5%;
+    bottom: 10%;
+}
+.textContainer{
+    width: 35%;
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+.line{
+    position: absolute;
+  border-color: #979797;
+  color: #979797;
+    z-index: 3;
+    top: 7%;
+    width: 39%;
+    left:10%;
+    size: 10px;
+}
+.link{
+    text-decoration: none;
+    color:white;
+}
+.homedetail{
+    font-family:Barlow regular;
+    font-size: 18px;
+    color:#D0D6F9; 
+    line-height: 32px;
+    width: 62%;
+
+}
+.homeTitle{
+    font-family:Barlow condensed regular;
+    font-size: 28px;
+    color:#D0D6F9; 
+    word-spacing: 27px;
+   
+
+}
+@media screen and (max-width: 768px) {
+    .Nav-container-child{
+        width:60%;
+        right: 0;
+    }
+    .line{
+        display: none;
+    }
+    .Nav-container{
+        padding-right: 0%;
+    }
+    .textContainer{
+        width:27%;
+      left: 25%;
+        position: absolute;
+        top: 20%;
+        
+       
+      
+    }
+    .homedetail{
+        width: 70%;
+    }
+    .explorelogo{
+        bottom: 10%;
+        left: 40%;
+       width: 60%;
+    }
+    .ExploreLogo{
+        width: 40%;
+    }
+    .homeTitle{
+    
+        font-size: 20px;  
+       word-spacing: 2px; 
+       width: 200%;
+       text-align: center;
+    }
+    .homedetail{
+        font-family:Barlow regular;
+        font-size: 16px;
+        color:#D0D6F9; 
+        line-height: 28px;
+        width: 200%;
+        text-align: center;
+    
+    }
+    .postionSpace{
+        position: relative;
+        left: 34%;
+        margin: 25px 0;
+    }
+
+  }
